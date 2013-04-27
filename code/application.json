@@ -2,7 +2,11 @@
     {
         "settings": [ "master" ],
         "appPort": "8666",
-        "specs": {}
+        "specs": {
+            "user": {
+                "type": "UserMojit"
+            }
+        }
     },
     {
         "settings": [ "environment:development" ],
