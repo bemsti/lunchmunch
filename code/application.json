@@ -5,7 +5,11 @@
         "specs": {
             "user": {
                 "type": "UserMojit"
+            },
+            "meal": {
+                "type": "meal"
             }
+
         }
     },
     {

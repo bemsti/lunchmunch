@@ -5,6 +5,11 @@
       "verbs": ["get"],
       "path": "/",
       "call": "user.index"
+    },
+    "meal index": {
+      "verbs": ["get"],
+      "path": "/meals",
+      "call": "meal.index"
     }
   }
 ]
