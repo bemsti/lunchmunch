@@ -1,4 +1,4 @@
-<div id="{{mojit_view_id}}">
+<!-- <div id="{{mojit_view_id}}">
     <dl>
         <dt>status</dt>
         <dd id="dd_status">{{status}}</dd>
@@ -7,4 +7,26 @@
             <b>some:</b> {{#data}}{{some}}{{/data}}
         </dd>
     </dl>
-</div>
+</div> -->
+
+<script type="text/javascript">
+	//var data = { postcode: Y.one('#EmployeeNumber').get('value') };
+	var postcode = "E14 8EA";
+	alert(encodeURIComponent(postcode));
+    /*Y.io('http://maps.googleapis.com/maps/api/geocode/json?address=' +  + '&sensor=false', {
+        method: 'GET',
+        // data: data,
+        on: {
+            success: function (id, result) {
+            	alert(result);
+                //var json = Y.JSON.parse(result.responseText);
+                Y.one('#Title').set('value', json.Title);
+                Y.one('#FirstName').set('value', json.NickName);
+                Y.one('#LastName').set('value', json.Surname);
+                Y.one('#BranchNumber').set('value', json.BranchID);
+                Y.one('#WorkTelephoneNumber').set('value', json.TellO);
+                Y.one('#CellphoneNumber').set('value', json.TellC);
+            }
+        }
+    });*/
+</script>
